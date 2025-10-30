@@ -1,0 +1,45 @@
+{
+  "name": "vue-settings-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "test": "vitest",
+    "test:ui": "vitest --ui"
+  },
+  "dependencies": {
+    "@primevue/themes": "^4.4.1",
+    "@tanstack/vue-query": "^5.90.5",
+    "primeicons": "^7.0.0",
+    "primevue": "^4.4.1",
+    "vue": "^3.5.22",
+    "vue-router": "^4.6.3"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^4.1.2",
+    "@storybook/addon-a11y": "^10.0.1",
+    "@storybook/addon-docs": "^10.0.1",
+    "@storybook/addon-onboarding": "^10.0.1",
+    "@storybook/addon-vitest": "^10.0.1",
+    "@storybook/vue3-vite": "^10.0.1",
+    "@testing-library/vue": "^8.1.0",
+    "@types/node": "^24.6.0",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/test-utils": "^2.4.6",
+    "@vue/tsconfig": "^0.8.1",
+    "autoprefixer": "^10.4.21",
+    "jsdom": "^27.0.1",
+    "postcss": "^8.5.6",
+    "storybook": "^10.0.1",
+    "tailwindcss": "^3.3.4",
+    "typescript": "~5.9.3",
+    "vite": "^7.1.7",
+    "vitest": "^4.0.5",
+    "vue-tsc": "^3.1.0"
+  }
+}
