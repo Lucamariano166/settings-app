@@ -23,7 +23,7 @@ const routes: RouteRecordRaw[] = [
       {
         path: 'privacidade',
         name: 'privacidade',
-        component: () => import ('../views/PrivacidadeView.vue')
+        component:  PrivacidadeView
       },
       {
         path: 'conta',
